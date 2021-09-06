@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> NS Bikes </title>
+        <meta charset="uft-8"/>
+        <link rel="shortcut icon" href="Elegantthemes-Beautiful-Flat-One-Color-Bike.ico" type="image/x-icon">
+        <script type="text/javascript" src="js/compra.js"> </script>
+        <link rel="stylesheet" href="css/compra.css">
+        <link rel="stylesheet" href="css/menu.css">
+    </head>
+    <body>
+        <nav id="menu">
+            <ul>
+                <li> <a href="home.html"> Home </a> </li>
+                <li> <a href="bikes.html"> Nossas Bikes </a> </li>
+                <li> <a href="compra.html"> Como Comprar </a> </li>
+                <li> <a href="dicas.html"> Dicas </a> </li>
+                <li> <a href="sobre.html"> Sobre </a> </li>
+            </ul>
+        </nav>
+        <div id="conteudo">
+            <table id="compra"> 
+                <tr> 
+                    <th> Região </th>
+                    <th> Valor do Frete </th>
+                </tr>
+                <tr>
+                    <td> Norte </th>
+                    <td> R$ 300,00 </th>
+                </tr>
+                <tr>
+                    <td> Nordeste </td>
+                    <td> R$ 250,00 </td>
+                </tr>
+                <tr>
+                    <td> Centro-Oeste </td>
+                    <td> R$ 150,00 </td>
+                </tr>
+                <tr>
+                    <td> Sudeste </td>
+                    <td> R$ 100,00 </td>
+                </tr>
+                <tr>
+                    <td> Sul </td>
+                    <td> R$ 150,00</td>
+                </tr>
+            </table>
+        </div>
+        <div id="formulario">
+            <h2> CALCULE O PREÇO DA COMPRA </h2>
+            <div class="campos">
+                <label for="pbike"> Preço da Bike </label>
+                <input type="number" id="pbike"/>
+            </div>
+            <div class="campos">
+                <label for="frete"> Preço do Frete </label>
+                <input type="number" id="frete"/>
+            </div>
+            <div class="campos">
+                <button type="button" onClick="mp()"> Calcular </button>
+            </div>
+            <div>
+                <h3 id="resultado"> </h3>
+            </div>
+        </div>
+    </body>
+</html>
